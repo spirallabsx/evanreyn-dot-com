@@ -1,2 +1,0 @@
-# spirallabsx.github.io
- 
