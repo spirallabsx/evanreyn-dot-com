@@ -1097,9 +1097,9 @@ Author: lineicons.com
   content: "\eafe";
 }
 
-.lni-italic::before {
+/* .lni-italic::before {
   content: "\eaff";
-}
+} */
 
 .lni-java::before {
   content: "\eb00";

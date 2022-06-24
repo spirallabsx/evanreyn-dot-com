@@ -250,6 +250,10 @@ color:rgb(225, 225, 225);
   margin: 30px;
 }
 
+#normalstyle {
+  font-family: "Roboto Mono";
+  font-style: normal;
+}
 #mayhem-button {
   background-color: #9a1248;
 }
