@@ -2,15 +2,18 @@
 html {
   background-color: rgb(36, 36, 36);  
 }
-
-p {
-  font-size: 28px;
+img {
+  width: 300px;
 }
+@media (min-width:468px) {
+  p {font-size: 24px;}
+}
+
 @media (min-width:768px) {
-  p {font-size: 28px;}
+  p {font-size: 24px;}
 }
 @media (min-width:1024px) {
-  p {font-size: 23px;}
+  p {font-size: 20px;}
 }
 @media (min-width:1280px) {
   p {font-size: 18px;}
@@ -19,6 +22,7 @@ p {
 a {
   font-family: 'Roboto Mono', monospace;
   text-decoration: none;
+  color:rgb(238, 238, 238);
 }
 
 a:hover {
@@ -29,4 +33,20 @@ a:hover {
 a.port {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
+
+p {
+  
+  color:rgb(238, 238, 238);
+  font-family: 'Roboto Mono', monospace;
+margin-top: 50px;
+margin-bottom: 10px;
+/* font-size: 28px; */
+}
+
+i {
+  font-size: small;
+}
+.smspan {
+  font-size:large;
 }
