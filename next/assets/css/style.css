@@ -548,6 +548,7 @@ body .modal-backdrop {
     backdrop-filter: blur(15px);
     z-index: 1000;
     margin-top: 0px;
+    height:125px;
 }
 .mobile_menu_social_links{
     display: flex;
@@ -569,6 +570,7 @@ body .modal-backdrop {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .bithu_menu_left_sect{
     display: flex;
@@ -587,7 +589,7 @@ body .modal-backdrop {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
 }
 .bithu_menu_list ul li{
     position: relative;
@@ -1034,9 +1036,9 @@ body .modal-backdrop {
     font-family: 'Bakbak One';
     font-style: normal;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 80px;
     line-height: 80px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #FFFFFF;
     margin-bottom: 32px;
 }
@@ -3292,7 +3294,7 @@ div.latest-item .hover-shape-bg{
 }
 .bithu_v1_main_footer{
     position: relative;
-    min-height: 400px;
+    min-height: 100px;
     width: 100%;
 }
 .bithu_v1_main_footer .bithu_v1_main_footer_overlay{
